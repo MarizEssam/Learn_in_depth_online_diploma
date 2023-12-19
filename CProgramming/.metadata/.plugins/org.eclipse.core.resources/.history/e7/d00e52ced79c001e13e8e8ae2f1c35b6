@@ -1,0 +1,15 @@
+/*
+ * main.#c
+ *
+ *  Created on: 17 Dec 2023
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int x[5] = {1,2,3,4,5};
+
+printf("%f" , x);
+printf("%x" , &x);
+}

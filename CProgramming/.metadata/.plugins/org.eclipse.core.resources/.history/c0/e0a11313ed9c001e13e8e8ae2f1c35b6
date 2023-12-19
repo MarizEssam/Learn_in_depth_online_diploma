@@ -1,0 +1,22 @@
+/*
+ * main.#c
+ *
+ *  Created on: 17 Dec 2023
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int x = 5;
+int y[3] = {1,2,3};
+char z[2] = {'h' , 0}
+printf("%d" , x);
+printf("%d" , &x);
+printf("%d" , y);
+printf("%d" , &y);
+printf("%d" , z);
+printf("%d" , &z);
+return 0;
+}
