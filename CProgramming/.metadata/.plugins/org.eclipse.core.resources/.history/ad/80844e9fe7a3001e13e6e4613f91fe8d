@@ -1,0 +1,30 @@
+/*
+ * transpose.c
+ *
+ *  Created on: 26 Dec 2023
+ *      Author: Mariz
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a[10][10],b[10][10] ,r,c;
+	printf("Enter Rows:");
+	fflush(stdout);
+	scanf("%d",&r);
+	fflush(stdin);
+
+	printf("Enter columns: ");
+	fflush(stdout);
+	scanf("%d",&c);
+	fflush(stdin);
+	int i,j;
+	for(i=0;i<r;i++){
+		for(j=0;j<c;j++){
+			printf("Enter a%d%d", i+1,j+1);
+			scanf("%d", &a[i][j]);
+		}
+	}
+
+}
+

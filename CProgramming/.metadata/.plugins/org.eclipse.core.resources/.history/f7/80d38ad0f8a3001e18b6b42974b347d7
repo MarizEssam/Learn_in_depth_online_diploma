@@ -1,0 +1,20 @@
+/*
+ * freq.c
+ *
+ *  Created on: 26 Dec 2023
+ *      Author: Mariz
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+	char a[]; b;
+	printf("enter a string: ");
+	fflush(stdout);
+	scanf("%s",a);
+	printf("enter a char: ");
+	fflush(stdout);
+	scanf("%c",b);
+
+	return 0;
+}

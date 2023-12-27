@@ -1,0 +1,27 @@
+/*
+ * reverse.c
+ *
+ *  Created on: 26 Dec 2023
+ *      Author: Mariz
+ */
+#include <stdio.h>
+#include<stdlib.h>
+#include <string.h>
+int main() {
+	char s[1000];
+	printf("enter a string: ");
+	fflush(stdout);
+	gets(s);
+	int i;char temp;
+	int j = strlen(s)-1;
+	while(i<j){
+		temp = s[i];
+		s[i]=s[j];
+		s[j]=temp;
+		j--;
+		i++;
+	}
+	printf("the reversed string: %s", s);
+	return 0;
+}
+
