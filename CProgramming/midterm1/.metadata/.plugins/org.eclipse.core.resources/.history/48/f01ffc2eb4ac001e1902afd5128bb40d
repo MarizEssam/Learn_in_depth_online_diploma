@@ -1,0 +1,41 @@
+/*
+ * unique.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+
+#include <stdio.h>
+void check_unique(int a[], int size)
+
+
+int i, k = 0 ;
+
+for i = 0 ;i<size;i++)
+{
+	k^= a[i] ;
+}
+
+printf("Unique number is: %d " ,k) ;
+
+
+int main()
+{
+int a[100], size, i;
+
+printf("Enter size of array: ");
+
+fflush(stdout);
+
+scanf("%d", &size);
+
+printf("Enter elements of array: ");
+fflush(stdout);
+
+for ( i = 0 i<size;i++){
+	scanf("%d",&a[i]);
+}
+check_unique(a, size);
+return 0;
+}

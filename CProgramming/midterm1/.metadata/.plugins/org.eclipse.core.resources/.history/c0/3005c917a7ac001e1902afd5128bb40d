@@ -1,0 +1,20 @@
+/*
+
+ * sum.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+int sum(int n){
+	int r, new_num;
+	if(n!= 0){
+		r=n%10;
+		new_num += r;
+		sum(n/10);
+	}
+	else{
+		return 0;
+	}
+	return new_num;
+}

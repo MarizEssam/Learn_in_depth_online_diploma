@@ -1,0 +1,22 @@
+/*
+ * getsum.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int getsum(int i,int j){
+	static int sum =0;
+	while(i<=j){
+		sum +=i;
+		getsum(i+1,j);
+	}
+}
+
+int main(){
+	printf("%d" ,getsum(1,100));
+	return 0;
+}

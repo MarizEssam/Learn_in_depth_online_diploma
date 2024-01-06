@@ -1,0 +1,15 @@
+/*
+ * reverse.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+	printf("Please enter a number: ");
+	scanf("%c" , &c);
+}
+

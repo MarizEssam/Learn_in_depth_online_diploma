@@ -1,0 +1,23 @@
+/*
+ * reverseArray.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int arr[];
+	int size;
+	printf("Enter array size: ");
+	fflush(stdout);
+	scanf("%d",size);
+	printf("Enter array elements: ");
+	int i=0;
+
+	for(i;i<size;i++){
+		scanf("%d",&a[i]);
+	}
+}
+

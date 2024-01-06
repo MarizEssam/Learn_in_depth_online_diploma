@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SumDigits/sumdigits&apos; to &apos;sumdigits.c&apos;" description="Rename resource &apos;sumdigits&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sumdigits" name="sumdigits.c" stamp="1704554157907" updateReferences="true"/>
+</session>
