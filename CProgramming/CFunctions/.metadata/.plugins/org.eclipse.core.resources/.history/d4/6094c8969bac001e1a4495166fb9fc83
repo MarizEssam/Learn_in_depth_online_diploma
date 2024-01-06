@@ -1,0 +1,26 @@
+/*
+ * power.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+int power(int a, int b);
+
+int main(){
+	int a , b;
+	printf(" Enter Base number: /n");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",a);
+	printf("Enter a power number: /n");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",b);
+}
+
+int power(int a , int b){
+	if (b==0) return 1;
+	else return a*power(a,b-1);
+}
+

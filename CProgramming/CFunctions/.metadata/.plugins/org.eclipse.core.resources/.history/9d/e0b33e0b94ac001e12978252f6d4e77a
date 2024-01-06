@@ -1,0 +1,31 @@
+/*
+ * quiz.c
+ *
+ *  Created on: 5 Jan 2024
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+
+int factorial(int n){
+	int f = 1;
+	if (n==1 || n==0) {
+		return f;
+
+	}
+	else{
+		f = f *n;
+		factorial(n-1);
+	}
+}
+
+
+int main()
+{
+	int n;
+	printf("Enter a number");
+	scanf("%d", &n);
+	printf("%d" ,factorial(n));
+	return 0;
+}
+

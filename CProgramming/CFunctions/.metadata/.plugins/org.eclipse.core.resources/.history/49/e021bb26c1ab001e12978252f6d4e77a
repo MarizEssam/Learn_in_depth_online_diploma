@@ -1,0 +1,28 @@
+/*
+ * quiz.c
+ *
+ *  Created on: 5 Jan 2024
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+
+void fun(int n)
+{
+if(n > 0)
+
+{
+fun(-- n) ;
+printf("%d", n);
+}
+fun(-- n) ;
+
+}
+
+int main()
+{
+int a = 3 ;
+fun(a);
+return 0;
+
+}

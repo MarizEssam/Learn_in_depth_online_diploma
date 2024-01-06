@@ -1,0 +1,37 @@
+/*
+ * prime.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void prime(int a,int b);
+int main(){
+	int a,b;
+	printf("Enter two numbers as intervals: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d %d" ,&a,&b);
+	prime(a,b);
+	return 0
+}
+
+void prime(int a , int b){
+	if(a<=b){
+		int i;
+		int f=1;
+		for(i=2; i<= a/2; ++i){
+			if(a%i ==0){
+				f = 0;
+				break;
+			}
+		if(f==1){
+			printf("%d",a);
+			prime(a+1,b);
+		}
+		}
+	}
+}

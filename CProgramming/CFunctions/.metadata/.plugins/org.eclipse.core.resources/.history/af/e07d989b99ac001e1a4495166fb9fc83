@@ -1,0 +1,27 @@
+/*
+ * reverse.c
+ *
+ *  Created on: 6 Jan 2024
+ *      Author: Mariz
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main{
+	char str[];
+	void reverse();
+	printf("Enter a sentence");
+	scanf("%s",str);
+	reverse();
+	return 0;
+}
+
+void reverse(){
+	char c;
+	scanf("%c",&c);
+	if (c!= '\0') {
+		reverse();
+		printf("%c",c);
+	}
+}

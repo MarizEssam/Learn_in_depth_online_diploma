@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ReverseR/reverse&apos; to &apos;reverse.c&apos;" description="Rename resource &apos;reverse&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="reverse" name="reverse.c" stamp="1704548130735" updateReferences="true"/>
+</session>
